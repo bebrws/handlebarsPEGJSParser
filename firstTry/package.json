@@ -1,0 +1,15 @@
+{
+  "name": "firsttry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testparser.js",
+  "scripts": {
+    "createparser": "pegjs -o parser.js firstRunAtAParser.pegjs",
+    "start": "npm run createparser && node testparser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
