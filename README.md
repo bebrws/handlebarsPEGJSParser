@@ -19,3 +19,13 @@ Variables: {{somevar}}
 Logic statements if and unless: {{#if}} {{#end}}
 
 It ignores and can just logout any other text
+
+
+
+
+To try it out:
+```
+cd fifthTry
+npm install
+npm run start
+```
